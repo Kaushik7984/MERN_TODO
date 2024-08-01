@@ -3,8 +3,8 @@ import mongoose from "mongoose";
 export const connectDB = () => {
   mongoose
     .connect(process.env.URI, {
-      dbName: "TODO",
+      dbName: "todo",
     })
-    .then(() => console.log("Database Connected"))
+    .then((c) => console.log(`Database Connected with ${c.connection.host}`))
     .catch((e) => console.log(e));
 };
