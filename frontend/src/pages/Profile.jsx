@@ -7,8 +7,8 @@ const Profile = () => {
   return (
     loading ? <Loader /> : (
       <div>
-      <h1>{user.name}</h1>
-      <p>{user.email}</p>
+      <h1>{user?.name}</h1>
+      <p>{user?.email}</p>
     </div>
     )
     
