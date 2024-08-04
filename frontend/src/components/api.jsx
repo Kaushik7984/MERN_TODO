@@ -1,2 +1,2 @@
-export const url = "https://todo-mern-ztqn.onrender.com/api/v1"
+export const url = "https://mern-todo-iucy.onrender.com/api/v1"
 
